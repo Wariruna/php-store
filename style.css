@@ -1,0 +1,134 @@
+header#user {
+    display: flex;
+    background: #ffc439;
+}
+.login {
+    width: 30vw;
+    margin: auto;
+}
+header#admin {
+    display:flex;
+    background-color: aqua;
+}
+
+h1 {
+    width: 90vw;
+    text-align: center;
+    font-size: 3em;
+}
+
+#cart {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#products_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 2px solid darkblue;
+    border-radius: 40px;
+    width: 15vw;
+    height: 25vw;
+    margin: 2%;
+    text-align: center;
+}
+.card .title {
+    height: 10%;
+}
+
+.card .price {
+    height:10%;
+}
+
+.card .description {
+    height: 30%;
+    width: 90%;
+    margin: auto;
+}
+.card form .handler_cant {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card form .handler_cant .cant::-webkit-inner-spin-button, 
+.card form .handler_cant .cant::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+   
+}
+
+.card form .handler_cant .cant {
+    width: 8%;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 0px 9px 0px 0px ;
+}
+.card form .handler_cant .less{
+    margin-left: 13px;
+}
+.card form .add_cart {
+    cursor: pointer;
+    margin: 10%;
+    height: 50px;
+    width: 65%;
+    border-radius: 10px;
+}
+#maxim_cart {
+    width: 60vw;
+    margin: auto;
+}
+#maxim_cart h2 {
+    text-align: center;
+}
+
+#maxim_cart table {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#maxim_cart tbody tr:nth-child(odd) {
+    /*Este selector escoge las lineas pares de la tabla en este caso del tbody */
+    background-color: #eee;
+}
+
+#maxim_cart tfoot {
+    background-color: bisque;
+}
+
+#maxim_cart td {
+    height: 40px;
+    width: 150px;
+}
+
+#maxim_cart table caption {
+    text-align: left;
+    font-size: 1.5em;
+}
+#paypal-button-container{
+    width: 20vw;
+    float: right;
+    margin-top: 2%;
+    
+}
+
+.icon {
+    width: 2vw;
+    margin-right: 5%;
+    height: 2vw;
+}
+
+.icon::hover {}
+
+.purchase {
+    padding-top: 20%;
+}
+
+#total {
+    text-align: right;
+}
